@@ -1,5 +1,6 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
+http://8.146.211.219:3000/private/iptv_source.txt
 https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u
 https://github.com/kakaxi-1/IPTV/raw/main/iptv.txt
 https://github.com/kakaxi-1/IPTV/raw/main/ipv4.txt
