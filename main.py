@@ -251,7 +251,7 @@ class UpdateSource:
                         candidates.append(candidate)
                     next_time = min(candidates)
                     wait_seconds = (next_time - self.now).total_seconds()
-                    print(t("msg.schedule_update_time").format(time=next_time.strftime("%Y-%m-%d %H:%M:%S")))
+                    print(t("msg.schedule_update_time").format(time=next_time.strftime("%y/%m/%d-%H:%M:%S")))
                     try:
                         await asyncio.wait_for(stop_event.wait(), timeout=wait_seconds)
                         if stop_event.is_set():
@@ -262,7 +262,7 @@ class UpdateSource:
                         continue
                 else:
                     next_time = self.now + datetime.timedelta(hours=config.update_interval)
-                    print(t("msg.schedule_update_time").format(time=next_time.strftime("%Y-%m-%d %H:%M:%S")))
+                    print(t("msg.schedule_update_time").format(time=next_time.strftime("%y/%m/%d-%H:%M:%S")))
                     try:
                         await asyncio.wait_for(stop_event.wait(), timeout=config.update_interval * 3600)
                     except asyncio.TimeoutError:
