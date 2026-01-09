@@ -1,4 +1,4 @@
-🕘️更新时间,26/01/09-09:13:35
+🕘️更新时间,26/01/09-12:46:29
 
 📺央视频道,#genre#
 CCTV-1,https://hls-gateway.vpstv.net/streams/476879.m3u8
@@ -169,6 +169,7 @@ CCTV-17,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888
 CCTV-17,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8
 CCTV-17,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226318/1.m3u8?
 CCTV-17,https://iptv.catvod.com/live.php?id=CCTV-17
+CCTV-17,https://iptv.catvod.com/live.php?id=CCTV17
 
 📡卫视频道,#genre#
 安徽卫视,http://iptv.huuc.edu.cn/hls/ahhd.m3u8
@@ -465,4 +466,4 @@ CCTV-17,https://iptv.catvod.com/live.php?id=CCTV-17
 黑龙江卫视,http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010056/1.m3u8
 
 🕘️更新时间,#genre#
-26/01/09-09:13:35,https:/123.mp4
+26/01/09-12:46:29,https:/123.mp4
